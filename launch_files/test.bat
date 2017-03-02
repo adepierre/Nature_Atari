@@ -1,0 +1,11 @@
+"../bin/Release/Nature_Atari.exe" ^
+--verbose=0 ^
+--gpu=0 ^
+--gui=1 ^
+--rom=breakout.bin ^
+--solver=my_dqn_solver.prototxt ^
+--evaluate=1 ^
+--skip_frame=4 ^
+--model=breakout_iter_1500000.caffemodel ^
+--evaluate_with_epsilon=0.02 ^
+--repeat_games=10

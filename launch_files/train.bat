@@ -1,0 +1,14 @@
+"../bin/Release/Nature_Atari.exe" ^
+--verbose=0 ^
+--gpu=0 ^
+--gui=0 ^
+--rom=breakout.bin ^
+--solver=my_dqn_solver.prototxt ^
+--memory=500000 ^
+--clone_frequency=10000 ^
+--memory_threshold=50 ^
+--explore=1000000 ^
+--gamma=0.95 ^
+--skip_frame=4 ^
+--steps_per_epoch=5000 ^
+--evaluate=0
